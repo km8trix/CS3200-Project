@@ -1,0 +1,6 @@
+{{
+	{
+	 custId: Cust_Select.selectedOptionValue, 
+	 showId: Watch_List.selectedRow.showId
+	}
+}}
