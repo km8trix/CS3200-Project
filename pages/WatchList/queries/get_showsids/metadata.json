@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_advertisers_ids",
+    "name": "get_showsids",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/advertisers/{id}"
+        "url": "web:4000/showsids"
       },
       "invalids": [],
       "messages": [],
@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "WatchList_get_advertisers_ids",
+  "id": "WatchList_get_showsids",
   "deleted": false,
-  "gitSyncId": "64381b2058f2e06701cd62e4_643837ae58f2e06701cd630d"
+  "gitSyncId": "64381b2058f2e06701cd62e4_643db62100726565a698f8b6"
 }

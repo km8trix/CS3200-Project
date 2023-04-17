@@ -1,0 +1,6 @@
+{{
+	{
+	 custId: Cust_Select.selectedOptionValue, 
+	 showId: Show_Select.selectedOptionValue
+	}
+}}
