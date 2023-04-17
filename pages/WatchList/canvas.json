@@ -25,65 +25,7 @@
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": [
-            {
-              "boxShadow": "none",
-              "widgetName": "Select1",
-              "isFilterable": true,
-              "displayName": "Select",
-              "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-              "labelText": "Select Customer:",
-              "searchTags": [
-                "dropdown"
-              ],
-              "topRow": 6,
-              "bottomRow": 13,
-              "parentRowSpace": 10,
-              "labelWidth": 5,
-              "type": "SELECT_WIDGET",
-              "serverSideFiltering": false,
-              "hideCard": false,
-              "defaultOptionValue": "",
-              "animateLoading": true,
-              "parentColumnSpace": 13.6875,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 12,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "options"
-                }
-              ],
-              "labelPosition": "Top",
-              "options": "{{}}",
-              "placeholderText": "--Select Option--",
-              "isDisabled": false,
-              "key": "ys9nmvfodm",
-              "labelTextSize": "0.875rem",
-              "isRequired": false,
-              "isDeprecated": false,
-              "rightColumn": 31,
-              "dynamicHeight": "FIXED",
-              "widgetId": "kyizkmm9n8",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "minWidth": 450,
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "labelAlignment": "left",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "minDynamicHeight": 4
-            }
-          ]
+          "children": []
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
