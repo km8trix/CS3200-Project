@@ -30,7 +30,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Show_Reviews",
-              "onClick": "{{navigateTo('Ad Statistics', { param : Ad_List.selectedRow.image, param1 : Ad_List.selectedRow.timeShown, param2: Ad_List.selectedRow. clickCount })}}",
+              "onClick": "{{navigateTo('Ad Statistics', { param1 : Ad_List.selectedRow.timeShown, param2: Ad_List.selectedRow. clickCount})}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "dynamicPropertyPathList": [
                 {
