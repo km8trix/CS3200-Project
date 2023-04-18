@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_advertisers_ids",
+    "name": "get_adids_ads",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/advertisers/{id}"
+        "url": "web:4000/ads/{{appsmith.URL.queryParams.param3}}/image"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Reviews",
+    "pageId": "Ad Statistics",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,18 +36,24 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [
+      {
+        "key": "datasourceUrl"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.URL.queryParams.param3"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Reviews_get_advertisers_ids",
+  "id": "Ad Statistics_get_adids_ads",
   "deleted": false,
-  "gitSyncId": "64381b2058f2e06701cd62e4_643c669f8af4573a959d6717"
+  "gitSyncId": "64381b2058f2e06701cd62e4_643ed88e34bc1e49666a1158"
 }
