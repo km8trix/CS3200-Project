@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_ads_ids",
+    "name": "get_advertisers_ads",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/ads/{id}"
+        "url": "web:4000/advertisers/{{Ad_Select.selectedOptionValue}}/ads"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Ad Statistics",
+    "pageId": "Advertisers Ads",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "datasourceUrl"
@@ -45,13 +45,15 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "Ad_Select.selectedOptionValue"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Ad Statistics_get_ads_ids",
+  "id": "Advertisers Ads_get_advertisers_ads",
   "deleted": false,
-  "gitSyncId": "64381b2058f2e06701cd62e4_643c66fa8af4573a959d6769"
+  "gitSyncId": "64381b2058f2e06701cd62e4_643dfa8fa0cf374d11e6553e"
 }
