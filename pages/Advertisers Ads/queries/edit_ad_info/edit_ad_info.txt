@@ -1,0 +1,7 @@
+{{
+	{
+	 amount: New_Amount.value, 
+	 budgetInterval: New_Budget.value,
+	 payment: New_Payment.value 
+	}
+}}
